@@ -1,6 +1,6 @@
-# Learning Latent Plans from Play
+# Interactively Learning to Learn and Assist
 
-Markdown from https://github.com/planetrl/planetrl.github.io
+Markdown from https://interactive-learning.github.io
 
 This repo contains the source for the article.
 
@@ -18,8 +18,8 @@ This repo contains the source for the article.
 
 ### Instructions to Build and Test
 ```bash
-git clone https://github.com/learning-from-play/learning-from-play.github.io.git
-cd learning-from-play.github.io
+git clone https://github.com/interactive-learning/interactive-learning.github.io.git
+cd interactive-learning.github.io
 npm install
 chmod +x ./bin/*
 ```
