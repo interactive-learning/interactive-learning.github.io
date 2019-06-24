@@ -12,9 +12,9 @@ For attribution in academic contexts, please cite this work as
 
 BibTeX citation
 
-<pre class="citation long">@article{lynch2019play,
+<pre class="citation long">@article{woodward2019lila,
   title={Learning to Interactively Learn and Assist},
   author={Woodward, Mark and Finn, Chelsea and Hausman, Karol},
-  journal={arXiv preprint arXiv:1903.01973},
+  journal={arXiv preprint arXiv:TBD},
   year={2019}
 }</pre>
