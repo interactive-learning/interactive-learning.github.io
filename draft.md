@@ -10,23 +10,21 @@ Our approach produces an agent that is capable of learning interactively from a 
 We conduct user experiments on object gathering tasks with pixel observations, and confirm that the trained agent learns from the human and that the joint performance significantly exceeds the performance of the human acting alone.
 Further, through a series of experiments, we demonstrate the emergence of a variety of learning behaviors, including information-sharing, information-seeking, and question-answering.
 
-[here]: https://learning-from-play.github.io
+[here]: https://interactive-learning.github.io
 
-<div class="figure">
+<!--div class="figure">
 <div class="webgl-content">
   <div style="margin: 0px auto; width: 800px">
     <div id="gameContainer" style="width: 800px; height: 450px"></div>
     <div class="footer">
-      <!--div class="webgl-logo"></div-->
       <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-      <!--div class="title">SimpleGridWorldWebGL</div-->
     </div>
   </div>
 </div>
 <figcaption>
 Game 1. Play a fruit collecting game with the trained assistant. Trying playing from an overhead view (press "v"). This introduces additional partial observability and is how the human participants and the agents observe the world. Also, try to score as low as possible, collecting the "wrong" fruit.
 </figcaption>
-</div>
+</div-->
 
 ______
 
