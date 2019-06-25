@@ -35,12 +35,26 @@
 <script src="lib/jquery-1.12.4.min.js"></script>
 <!--<script src="lib/mobile-detect.min.js"></script>-->
 <script src="lib/template.v1.js"></script>
+
 <script>
   alert("window = " + $(window).width() + ", " + "document = " + $(document).width() + ", " + "screen.width=" + screen.width);
   if (screen.width < 800 || screen.height < 600) {
-      alert("Mobile Detected. To play the game, please visit this site from a non-mobile device.");
+    alert("Mobile Detected. To play the game, please visit this site from a non-mobile device.");
   }
 </script>
+<!--script>
+  alert("window = " + $(window).width() + ", " + "document = " + $(document).width() + ", " + "screen.width=" + screen.width);
+  if (screen.width < 800 || screen.height < 600) {
+    alert("Mobile Detected. To play the game, please visit this site from a non-mobile device.");
+    $(function(){
+      $("#my_unity_game").load("game_splash.html");
+    });
+  } else {
+    $(function(){
+      $("#my_unity_game").load("game.html");
+    });
+  }
+</script-->
 
 <div class="cover">
   <h1 class="unselectable">Learning to Interactively<br>Learn and Assist</h1>
