@@ -36,7 +36,10 @@
 <!--<script src="lib/mobile-detect.min.js"></script>-->
 <script src="lib/template.v1.js"></script>
 <script>
-  alert($(window).width() + ", " + $(document).width());
+  alert("window = " + $(window).width() + ", " + "document = " + $(document).width() + ", " + "screen.width=" + screen.width);
+  if (screen.width < 800 || screen.height < 600) {
+      alert("Mobile Detected. To play the game, please visit this site from a non-mobile device.");
+  }
 </script>
 
 <div class="cover">
