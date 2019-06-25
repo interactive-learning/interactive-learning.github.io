@@ -19,6 +19,26 @@
   <meta property="og:site_name" content="By meta-training with a human surrogate agent, the agent learns to learn from interaction with a human." />
   <meta name="twitter:image" content="https://learning-from-play.github.io/assets/img/lmp_logo_square.png" />
 
+<!--script>
+  alert("window = " + $(window).width() + ", " + "document = " + $(document).width() + ", " + "screen.width=" + screen.width);
+  if (screen.width < 800 || screen.height < 600) {
+    alert("Mobile Detected. To play the game, please visit this site from a non-mobile device.");
+  }
+</script-->
+<!--script>
+  alert("window = " + $(window).width() + ", " + "document = " + $(document).width() + ", " + "screen.width=" + screen.width);
+  if (screen.width < 800 || screen.height < 600) {
+    alert("Mobile Detected. To play the game, please visit this site from a non-mobile device.");
+    $(function(){
+      $("#my_unity_game").load("game_splash.html");
+    });
+  } else {
+    $(function(){
+      $("#my_unity_game").load("game.html");
+    });
+  }
+</script-->
+
   <!-- unity -->
   <link rel="stylesheet" href="TemplateData/style.css">
   <script src="TemplateData/UnityProgress.js"></script>
@@ -35,26 +55,6 @@
 <script src="lib/jquery-1.12.4.min.js"></script>
 <!--<script src="lib/mobile-detect.min.js"></script>-->
 <script src="lib/template.v1.js"></script>
-
-<script>
-  alert("window = " + $(window).width() + ", " + "document = " + $(document).width() + ", " + "screen.width=" + screen.width);
-  if (screen.width < 800 || screen.height < 600) {
-    alert("Mobile Detected. To play the game, please visit this site from a non-mobile device.");
-  }
-</script>
-<!--script>
-  alert("window = " + $(window).width() + ", " + "document = " + $(document).width() + ", " + "screen.width=" + screen.width);
-  if (screen.width < 800 || screen.height < 600) {
-    alert("Mobile Detected. To play the game, please visit this site from a non-mobile device.");
-    $(function(){
-      $("#my_unity_game").load("game_splash.html");
-    });
-  } else {
-    $(function(){
-      $("#my_unity_game").load("game.html");
-    });
-  }
-</script-->
 
 <div class="cover">
   <h1 class="unselectable">Learning to Interactively<br>Learn and Assist</h1>

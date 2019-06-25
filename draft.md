@@ -14,18 +14,13 @@ Further, through a series of experiments, we demonstrate the emergence of a vari
 
 <div class="figure">
 <div class="webgl-content">
-  <!--div style="margin: 0px auto"-->
-  <!--div style="margin: 0px auto; max-width: 800px"-->
   <div style="margin: 0px auto; width: 800px">
-    <!--div id="gameContainer"></div-->
-    <!--div id="gameContainer" style="max-width: 800px; max-height: 450px"></div-->
     <div id="gameContainer" style="width: 800px; height: 450px"></div>
     <div class="footer">
       <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
     </div>
   </div>
 </div>
-  <!--div id="my_unity_game"></div-->
 <figcaption>
 Game 1. Play a fruit collecting game with the trained assistant. Trying playing from an overhead view (press "v"). This introduces additional partial observability and is how the human participants and the agents observe the world. Also, try to score as low as possible, collecting the "wrong" fruit.
 </figcaption>
