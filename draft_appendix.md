@@ -15,6 +15,6 @@ BibTeX citation
 <pre class="citation long">@article{woodward2019lila,
   title={Learning to Interactively Learn and Assist},
   author={Woodward, Mark and Finn, Chelsea and Hausman, Karol},
-  journal={arXiv preprint arXiv:TBD},
+  journal={arXiv preprint arXiv:1906.10187},
   year={2019}
 }</pre>
